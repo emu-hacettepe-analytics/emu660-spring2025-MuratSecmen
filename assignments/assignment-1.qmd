@@ -5,7 +5,10 @@ title: "Assignment 1"
 # Assignment 1
 
 ```{r}
-1 + 1
+# loading dataset
+data("mtcars")
+# 5 rows look
+head(mtcars)
 ```
 
 My first assignment has two parts.

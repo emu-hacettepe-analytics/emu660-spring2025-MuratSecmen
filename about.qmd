@@ -7,7 +7,7 @@ sidebar: false
 
 # Education
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
+-   B.S., Turkish Milita., ....................................University, Turkey, 20xx - 20xx.
 -   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
 -   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
 
