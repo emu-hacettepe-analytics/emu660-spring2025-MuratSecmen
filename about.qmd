@@ -3,7 +3,7 @@ title: "murat sayfa"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/1-01.jpg){fig-align="center" width="200"}
 
 # Education
 
@@ -15,26 +15,29 @@ sidebar: false
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Firm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing
 
-2.  Firm yyy, position yyy, year yyy
+2.  Firm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022
 
-## Internships
+3.  Firm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+4.  Firm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2020
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+1.  Optimal araç yerleşimi ve depo alanı seçimi (TUSAŞ/Hacettepe Üniversitesi)
+2.  Maliyet azaltımı ve karbon emisyonu düşürme projeleri (DHL Supply Chain)
+3.  Intermodal taşımacılık optimizasyonu (Ekol Lojistik)
+4.  Askeri lojistik operasyon yönetimi (TSK/NATO)
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  Seçmen, M., Öncan, T., Tuna O. (2015). Dağıtım Ağları Tasarımı ve Bir Tedarik Zincirindeki Uygulaması. *Beykoz Akademi Dergisi*, 8(1), 159-179.
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python , Minitab, SQL, MS Project , SIMIO
 
 # Hobbies
+
+Veri analitiği ve programlama, Optimizasyon uygulamaları, Basketbol oynamak, Satranç oynamak, Seyahat etmek

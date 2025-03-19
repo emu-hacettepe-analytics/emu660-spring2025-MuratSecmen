@@ -82,9 +82,9 @@
   {
     "objectID": "about.html#employements",
     "href": "about.html#employements",
-    "title": "About Me",
+    "title": "murat sayfa",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
+    "text": "Employements\n\nFirm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing\nFirm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022\nFirm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021\nFirm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2020"
   },
   {
     "objectID": "about.html#internships",
@@ -112,7 +112,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "# loading dataset\ndata(\"mtcars\")\n# 5 rows look\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\nMy first assignment has two parts.",
+    "text": "# loading dataset\ndata(\"mtcars\")\n# 5 rows look\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\nMy first assig\nnment has two parts.",
     "crumbs": [
       "Assignment 1"
     ]
