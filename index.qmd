@@ -7,3 +7,5 @@ Hello!! My name is Murat Seçmen.
 This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
+
+![](images/clipboard-39809517.png)

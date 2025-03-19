@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Murat]'s Analytics Lab"
+  title: "Murat's Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,11 +22,11 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/MuratSecmen
+      - icon: toggle 
+        href: https://github.com/emu-hacettepe-analytics/emu660-spring2025-MuratSecmen
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/muratsecmen/
 
   sidebar:
     - title: "Assignments"
