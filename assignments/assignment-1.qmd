@@ -11,7 +11,17 @@ data("mtcars")
 head(mtcars)
 ```
 
-My first assignment has two parts.
+My first assig
+
+```{r}
+
+```
+
+nment has two parts.
+
+```{r}
+
+```
 
 ## (a)
 

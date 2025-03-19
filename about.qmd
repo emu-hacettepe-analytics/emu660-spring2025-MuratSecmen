@@ -7,9 +7,9 @@ sidebar: false
 
 # Education
 
--   B.S., Turkish Milita., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Logistics Engineering, Dokuz Eylül University, Turkey, 2009 - 2013.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Systems and Industrial Engineering, Turkish Land Forces Academy, Türkiye, 2004 - 2008.
+-   M.S., Logistics Engineering, Dokuz Eylül University, Türkiye, 2009 - 2013.
+-   M.S., Industrial Engineering, Hacettepe University, Türkiye, 2024 - ongoing.
 
 # Work Experience
 
