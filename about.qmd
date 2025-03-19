@@ -1,5 +1,5 @@
 ---
-title: "murat sayfa"
+title: "About Me"
 sidebar: false 
 ---
 
@@ -25,10 +25,10 @@ sidebar: false
 
 # Projects
 
-1.  Optimal araç yerleşimi ve depo alanı seçimi (TUSAŞ/Hacettepe Üniversitesi)
-2.  Maliyet azaltımı ve karbon emisyonu düşürme projeleri (DHL Supply Chain)
-3.  Intermodal taşımacılık optimizasyonu (Ekol Lojistik)
-4.  Askeri lojistik operasyon yönetimi (TSK/NATO)
+1.  An Integrated Approach to Optimal Tool Placement, Storage Location Assignment, and Network Design Using Association Rule Algorithm (TUSAŞ/Hacettepe University)
+2.  Cost Reduction and Carbon Emission Reduction Projects (DHL Supply Chain)
+3.  Intermodal Transportation Optimization (Ekol Logistics)
+4.  Military Logistics Operation Management (TSK/NATO)
 
 # Publications
 
@@ -40,4 +40,4 @@ R, Quarto, Git, Python , Minitab, SQL, MS Project , SIMIO
 
 # Hobbies
 
-Veri analitiği ve programlama, Optimizasyon uygulamaları, Basketbol oynamak, Satranç oynamak, Seyahat etmek
+Data analytics and programming, Optimization applications, Playing basketball, Playing chess, Traveling
