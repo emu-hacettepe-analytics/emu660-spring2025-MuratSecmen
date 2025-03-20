@@ -28,7 +28,7 @@ sidebar: false
 1.  An Integrated Approach to Optimal Tool Placement, Storage Location Assignment, and Network Design Using Association Rule Algorithm (TUSAŞ/Hacettepe University)
 2.  Cost Reduction and Carbon Emission Reduction Projects (DHL Supply Chain)
 3.  Intermodal Transportation Optimization (Ekol Logistics)
-4.  Military Logistics Operation Management (TSK/NATO)
+4.  Military Logistics Operation Management (TSK/NATO).......
 
 # Publications
 
