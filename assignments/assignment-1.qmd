@@ -4,7 +4,7 @@ title: "Assignment 1"
 
 # Assignment 1
 
-## **(a)**  Video Summary:
+## **(a)** Video Summary:
 
 [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
 
@@ -12,69 +12,95 @@ Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analy
 
 ## (b) Explore Statistical Summaries with Custom Functions and Iteration Methods:
 
--   Write a Custom Summary Function
-
-```{# mtcars datasetini yükle (built-in)}
+```{r}
+# mtcars datasetini yükle (built-in)
 data(mtcars)
 
 # mtcars'ın ilk 5 satırını gör
 head(mtcars, 5)
+
 ```
 
-```{# compute_stats function}
-compute_stats <- function(x) {
-  # input numeric control
-  if (!is.numeric(x)) {
-    stop("Input must be a numeric vector.")
-  }
-  
-  # statistical calculations
-  mean_x   <- mean(x)
-  median_x <- median(x)
-  var_x    <- var(x)
-  iqr_x    <- IQR(x)
-  min_x    <- min(x)
-  max_x    <- max(x)
-  
-  # list results
-  stats_list <- list(
-    mean      = mean_x,
-    median    = median_x,
-    variance  = var_x,
-    iqr       = iqr_x,
-    minimum   = min_x,
-    maximum   = max_x
-  )
-  
-  return(stats_list)
-}
-
-# Sample function : mtcars dataset mpg columns statistics 
-compute_stats(mtcars$mpg)
-```
-
--   Applying the Function Using a Loop:
+-   **Write a Custom Summary Function:**
 
     ```{r}
-    # mtcars veri setini yüklüyoruz
-    data(mtcars)
+    # compute_stats function
 
-    # for döngüsü ile tüm sayısal sütunlara fonksiyonu uygulayalım
-    for (col_name in names(mtcars)) {
-      
-      # sütunun sayısal olup olmadığını kontrol edelim
-      if (is.numeric(mtcars[[col_name]])) {
-        
-        # sütuna compute_stats fonksiyonunu uygula
-        stats <- compute_stats(mtcars[[col_name]])
-        
-        # sonuçları yazdır (sütun ismiyle birlikte)
-        cat("Column:", col_name, "\n")
-        print(stats)
-        cat("\n") # Araya boş satır bırakır (daha okunur)
+    compute_stats <- function(x) {
+      # input numeric control
+      if (!is.numeric(x)) {
+        stop("Input must be a numeric vector.")
       }
+      
+      # statistical calculations
+      mean_x   <- mean(x)
+      median_x <- median(x)
+      var_x    <- var(x)
+      iqr_x    <- IQR(x)
+      min_x    <- min(x)
+      max_x    <- max(x)
+      
+      # list results
+      stats_list <- list(
+        mean      = mean_x,
+        median    = median_x,
+        variance  = var_x,
+        iqr       = iqr_x,
+        minimum   = min_x,
+        maximum   = max_x
+      )
+      
+      return(stats_list)
     }
 
+    # Sample function: mtcars dataset mpg column statistics 
+    data(mtcars)
+    compute_stats(mtcars$mpg)
+    ```
+
+-   **Applying the Function Using a Loop:**
+
+    ```{r}
+    # Veri setini yükle
+    data(mtcars)
+
+    # Her sütun için döngü ile compute_stats fonksiyonunu çalıştır
+    for (col_name in names(mtcars)) {
+      
+      # Sütunun sayısal olup olmadığını kontrol et
+      if (is.numeric(mtcars[[col_name]])) {
+        
+        # Fonksiyonu uygula
+        stats <- compute_stats(mtcars[[col_name]])
+        
+        # Sütun adını ve istatistikleri yazdır
+        cat("Column:", col_name, "\n")
+        print(stats)
+        cat("\n")  # Araya boşluk ekler
+      }
+    }
+    ```
+
+-   **An alternative approach with sapply and apply:**
+
+    ```{r}
+    # sapply ile tüm sütunlara compute_stats fonksiyonunu uygula
+    stats_sapply <- sapply(mtcars, compute_stats)
+
+    # sonuçları yazdır
+    stats_sapply
+
+    ```
+
+    ```{r}
+    # veriyi matrise dönüştür
+    mtcars_mat <- as.matrix(mtcars)
+
+    # apply fonksiyonunu sütunlara uygula (margin = 2)
+    stats_apply <- apply(mtcars_mat, 2, compute_stats)
+
+    # sonucu yazdır
+    stats_apply
 
     ```
 
