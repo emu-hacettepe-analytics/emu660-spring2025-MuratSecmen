@@ -18,12 +18,14 @@ sidebar: false
 1.  Firm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing
 2.  Firm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022
 3.  Firm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021
-4.  Firm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2019
+4.  Firm: Turkish Armed Forces (TSK), Position: Army Officer (Logistics & Supply Chain Management), Year: 2008 – 2019
 
 ## Awards
 
 1.  Turkish Youth Man Basketball Championship, 2nd Placement (Silver Medal)
 2.  Logistics & Supply Chain Planning Basic Officer Training, 3rd Placement
+3.  NATO Non-Article 5 Medal
+4.  NATO Certificate of Appreciation from NATO Secretary of General
 
 # Projects
 
@@ -50,4 +52,4 @@ R, Quarto, Python, SQL, MS Office, CPLEX OPL, Power BI NATO LOGFAS Tools EVE and
 
 Data analytics and programming, Optimization applications, Playing basketball, Playing chess, Traveling
 
-**CV:** [Download My CV](Murat_Secmen.pdf){download="MuratSecmenCV.pdf" target="_blank"}
+**CV:** [Download My CV](MuratSecmenCv.pdf){download="MuratSecmenCv.pdf" target="_blank"}
