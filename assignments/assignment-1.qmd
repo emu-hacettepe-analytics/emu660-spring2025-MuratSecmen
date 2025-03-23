@@ -4,25 +4,10 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-# loading dataset
-data("mtcars")
-# 5 rows look
-head(mtcars)
-```
+## **(a)** [**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir**](https://www.youtube.com/watch?v=tV_0pHSdLAM)
 
-My first assig
-
-```{r}
-
-```
-
-nment has two parts.
-
-```{r}
-
-```
-
-## (a)
+Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.
 
 ## (b)
+
+## (c)

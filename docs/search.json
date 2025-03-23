@@ -74,7 +74,7 @@
     "href": "assignments.html",
     "title": "My Assignments",
     "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Spring 2024] EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
+    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Spring 2024-2025] EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
     "crumbs": [
       "My Assignments"
     ]
@@ -84,7 +84,7 @@
     "href": "about.html#employements",
     "title": "About Me",
     "section": "Employements",
-    "text": "Employements\n\nFirm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing\nFirm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022\nFirm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021\nFirm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2020"
+    "text": "Employements\n\nFirm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing\nFirm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022\nFirm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021\nFirm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2019"
   },
   {
     "objectID": "about.html#internships",
@@ -98,7 +98,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "This page is under construction.\n\n\n\n Back to top"
+    "text": "“I’m excited to share my first blog post as part of my coursework. I’m genuinely delighted to be taking this course, as it provides me with a valuable opportunity to further develop myself professionally. Throughout this journey, I aim to deepen my understanding of Operations Research (OR) methodologies and techniques, particularly focusing on Vehicle Routing Problems (VRP) and their various variants. Drawing from my prior experience working with logistics firms, I look forward to synthesizing this practical knowledge with academic insights to generate original and impactful solutions. My goal is to regularly share insightful content focused on OR approaches, optimization strategies, and practical applications. I believe that gaining new knowledge in this area and actively contributing to this platform will be both rewarding and beneficial. I look forward to continuously sharing more enriching content here in the future.” - March 12, 2025\n\n\n\n Back to top"
   },
   {
     "objectID": "docs/assignments/assignment-1.html",
@@ -112,7 +112,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "# loading dataset\ndata(\"mtcars\")\n# 5 rows look\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\nMy first assig\nnment has two parts.",
+    "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.",
     "crumbs": [
       "Assignment 1"
     ]
@@ -125,6 +125,16 @@
     "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
+    "href": "assignments/assignment-1.html#a-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.",
+    "crumbs": [
+      "Assignment 1"
     ]
   }
 ]
