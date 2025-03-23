@@ -50,4 +50,4 @@ R, Quarto, Python, SQL, MS Office, CPLEX OPL, Power BI NATO LOGFAS Tools EVE and
 
 Data analytics and programming, Optimization applications, Playing basketball, Playing chess, Traveling
 
-**CV:** [Download My CV](assets/files/cv.pdf){download="Murat_Secmen_CV.pdf"}
+**CV:** [Download My CV](Murat_Secmen.pdf){download="MuratSecmenCV.pdf" target="_blank"}
