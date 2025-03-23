@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "Murat Seçmen's Blog"
 sidebar: false 
 ---
 
