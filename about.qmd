@@ -16,12 +16,14 @@ sidebar: false
 ## Employments
 
 1.  Firm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing
-
 2.  Firm: DHL Supply Chain, Position: Value Creation Executive, Year: 2021 – 2022
-
 3.  Firm: Ekol Logistics, Position: Transport Network Design Specialist, Year: 2020 – 2021
-
 4.  Firm: Turkish Armed Forces (TSK), Position: Officer (Logistics & Supply Chain Management), Year: 2008 – 2019
+
+## Awards
+
+1.  Turkish Youth Man Basketball Championship, 2nd Placement (Silver Medal)
+2.  Logistics & Supply Chain Planning Basic Officer Training, 3rd Placement
 
 # Projects
 
@@ -34,11 +36,15 @@ sidebar: false
 
 1.  Seçmen, M., Öncan, T., Tuna O. (2015). Dağıtım Ağları Tasarımı ve Bir Tedarik Zincirindeki Uygulaması. *Beykoz Akademi Dergisi*, 8(1), 159-179.
 
+## Military Publications
+
+1.  “How do IJC CJ4 SMC track ad trace convoys across the CJOA”- *NRDC-T Magazine* for Issue 20
+2.  “What do we do in order to improve partnerships with the organizations in Afghanistan”- *NRDC-T Magazine* for Issue 21
+3.  “The Northern Distribution Network”- *NRDC-T Magazine* for Issue 21
+
 # Competencies
 
-R, Quarto, Python, SQL, MS Office, CPLEX OPL, Power BI
-
-NATO LOGFAS Tools EVE and CORSOM Modules
+R, Quarto, Python, SQL, MS Office, CPLEX OPL, Power BI NATO LOGFAS Tools EVE and CORSOM Modules
 
 # Hobbies
 
