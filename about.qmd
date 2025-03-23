@@ -13,7 +13,7 @@ sidebar: false
 
 # Work Experience
 
-## Employements
+## Employments
 
 1.  Firm: Turkish Aerospace Industries (TUSAŞ), Position: Leader Engineer - Production Planning and Control, Year: 2023 – ongoing
 

@@ -2,8 +2,6 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
 ## **(a)** Video Summary:
 
 [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
@@ -104,4 +102,120 @@ head(mtcars, 5)
 
     ```
 
-## (c)
+## (c) Load the “na_example” dataset from the dslabs package:
+
+```{r}
+# Load the dslabs package and the na_example dataset
+library(dslabs)
+data("na_example")
+
+# Display the dataset's contents (including NA values)
+cat("Original na_example dataset:\n")
+```
+
+-   Display the dataset’s contents on your webpage, including any NA (missing) values present.
+
+    ```{r}
+    print(na_example)
+    ```
+
+-   Report the total count of NA values found within the dataset and the index positions of all NA values in the dataset.
+
+    ```{r}
+    na_count <- sum(is.na(na_example))
+    na_positions <- which(is.na(na_example))
+    cat("\nTotal count of NA values:", na_count, "\n")
+    ```
+
+    ```{r}
+    cat("Index positions of NA values:", na_positions, "\n")
+    ```
+
+-   Compute and display the mean and standard deviation of the dataset before handling missing values (ignore NAs in calculations).
+
+    ```{r}
+    original_mean <- mean(na_example, na.rm = TRUE)
+    original_sd <- sd(na_example, na.rm = TRUE)
+    cat("\nOriginal dataset (ignoring NAs):\n")
+    ```
+
+    ```{r}
+    cat("Mean:", original_mean, "\n")
+    ```
+
+    ```{r}
+    cat("Standard deviation:", original_sd, "\n")
+    ```
+
+-   Handling Missing Values- create two modified versions of the dataset:
+
+    -   Version 1: Replace all NA values with the median of the non-missing values.
+
+    -   Version 2: Replace all NA values with a randomly selected non-missing value from the dataset.
+
+    ```{r}
+    # Version 1: Replace NA values with the median of non-missing values
+    median_value <- median(na_example, na.rm = TRUE)
+    version1 <- na_example
+    version1[is.na(version1)] <- median_value
+
+    # Version 2: Replace NA values with a randomly selected non-missing value
+    non_missing <- na_example[!is.na(na_example)]
+    random_values <- sample(non_missing, size = na_count, replace = TRUE)
+    version2 <- na_example
+    version2[is.na(version2)] <- random_values
+
+    # Compute mean and standard deviation for both modified versions
+    version1_mean <- mean(version1)
+    version1_sd <- sd(version1)
+    version2_mean <- mean(version2)
+    version2_sd <- sd(version2)
+
+    # Display results for Version 1
+    cat("\nVersion 1 (NA replaced with median):\n")
+    ```
+
+    ```{r}
+    cat("Mean:", version1_mean, "\n")
+    ```
+
+    ```{r}
+    cat("Standard deviation:", version1_sd, "\n")
+    ```
+
+    ```{r}
+    # Display results for Version 2
+    cat("\nVersion 2 (NA replaced with random values):\n")
+    ```
+
+    ```{r}
+    cat("Mean:", version2_mean, "\n")
+    ```
+
+    ```{r}
+    cat("Standard deviation:", version2_sd, "\n")
+    ```
+
+-   Compare the Results:
+
+    ```{r}
+    cat("Original Mean (ignoring NAs):", original_mean, " | SD:", original_sd, "\n")
+    ```
+
+    ```{r}
+    cat("Version 1 Mean (median fill):", version1_mean, " | SD:", version1_sd, "\n")
+    ```
+
+    ```{r}
+    cat("Version 2 Mean (random fill):", version2_mean, " | SD:", version2_sd, "\n")
+    ```
+
+**Explanation:**
+
+The `na_example` dataset consists of numeric values with some missing entries (NAs).
+
+1.  In Version 1, replacing missing values with the median helps *preserve the dataset’s central tendency (mean and median)*, but it tends to reduce the overall variability, since the same value is repeatedly used to fill gaps—leading to a lower standard deviation.
+
+2.  In Version 2, filling in missing values with randomly selected observed values helps *maintain the dataset’s natural spread and variation*, resulting in a standard deviation closer to the original. However, this approach can slightly shift the mean depending on the random values inserted.
+
+Therefore, if the goal is to preserve data variability, **Version 2** is more suitable. On the other hand, if consistency around the center of the data is more important, **Version 1** would be the better choice.
