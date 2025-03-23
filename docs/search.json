@@ -112,7 +112,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.",
+    "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.\n\n\n\n\nWrite a Custom Summary Function\n\n\n# mtcars datasetini yükle (built-in)\ndata(mtcars)\n\n# mtcars'ın ilk 5 satırını gör\nhead(mtcars, 5)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\n\n\n\n# compute_stats function\ncompute_stats &lt;- function(x) {\n  # input numeric control\n  if (!is.numeric(x)) {\n    stop(\"Input must be a numeric vector.\")\n  }\n  \n  # statistical calculations\n  mean_x   &lt;- mean(x)\n  median_x &lt;- median(x)\n  var_x    &lt;- var(x)\n  iqr_x    &lt;- IQR(x)\n  min_x    &lt;- min(x)\n  max_x    &lt;- max(x)\n  \n  # list results\n  stats_list &lt;- list(\n    mean      = mean_x,\n    median    = median_x,\n    variance  = var_x,\n    iqr       = iqr_x,\n    minimum   = min_x,\n    maximum   = max_x\n  )\n  \n  return(stats_list)\n}\n\n# Sample function : mtcars dataset mpg columns statistics \ncompute_stats(mtcars$mpg)\n\n$mean\n[1] 20.09062\n\n$median\n[1] 19.2\n\n$variance\n[1] 36.3241\n\n$iqr\n[1] 7.375\n\n$minimum\n[1] 10.4\n\n$maximum\n[1] 33.9",
     "crumbs": [
       "Assignment 1"
     ]
@@ -130,6 +130,46 @@
   {
     "objectID": "assignments/assignment-1.html#a-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
     "href": "assignments/assignment-1.html#a-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b-statistical-summaries-with-custom-functions-and-iteration-methods",
+    "href": "assignments/assignment-1.html#b-statistical-summaries-with-custom-functions-and-iteration-methods",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "```{r} # loading dataset data(“mtcars”)",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#c",
+    "href": "assignments/assignment-1.html#c",
+    "title": "Assignment 1",
+    "section": "(c)",
+    "text": "(c)",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b-explore-statistical-summaries-with-custom-functions-and-iteration-methods",
+    "href": "assignments/assignment-1.html#b-explore-statistical-summaries-with-custom-functions-and-iteration-methods",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Write a Custom Summary Function\n\n\n# mtcars datasetini yükle (built-in)\ndata(mtcars)\n\n# mtcars'ın ilk 5 satırını gör\nhead(mtcars, 5)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\n\n\n\n# compute_stats function\ncompute_stats &lt;- function(x) {\n  # input numeric control\n  if (!is.numeric(x)) {\n    stop(\"Input must be a numeric vector.\")\n  }\n  \n  # statistical calculations\n  mean_x   &lt;- mean(x)\n  median_x &lt;- median(x)\n  var_x    &lt;- var(x)\n  iqr_x    &lt;- IQR(x)\n  min_x    &lt;- min(x)\n  max_x    &lt;- max(x)\n  \n  # list results\n  stats_list &lt;- list(\n    mean      = mean_x,\n    median    = median_x,\n    variance  = var_x,\n    iqr       = iqr_x,\n    minimum   = min_x,\n    maximum   = max_x\n  )\n  \n  return(stats_list)\n}\n\n# Sample function : mtcars dataset mpg columns statistics \ncompute_stats(mtcars$mpg)\n\n$mean\n[1] 20.09062\n\n$median\n[1] 19.2\n\n$variance\n[1] 36.3241\n\n$iqr\n[1] 7.375\n\n$minimum\n[1] 10.4\n\n$maximum\n[1] 33.9",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
+    "href": "assignments/assignment-1.html#veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---baykal-hafızoğlu-erdi-daşdemir",
     "title": "Assignment 1",
     "section": "",
     "text": "Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.",

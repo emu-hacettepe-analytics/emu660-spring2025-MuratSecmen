@@ -4,10 +4,78 @@ title: "Assignment 1"
 
 # Assignment 1
 
-## **(a)** [**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir**](https://www.youtube.com/watch?v=tV_0pHSdLAM)
+## **(a)**  Video Summary:
+
+[Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir](https://www.youtube.com/watch?v=tV_0pHSdLAM)
 
 Dr. Baykal Hafızoğlu, an expert in analytics and optimization, discusses analytics methods ranging from descriptive to prescriptive analytics. Drawing from his Operations Research expertise and industry experience, he highlights the importance of clear problem definitions, actionable KPIs, and user-friendly solutions. Dr. Hafızoğlu emphasizes the strategic, tactical, and operational applications of prescriptive methods like optimization and heuristics. He concludes by stressing the critical role of user feedback, early prototyping, and effective deployment in ensuring analytics solutions deliver practical, real-world value.
 
-## (b)
+## (b) Explore Statistical Summaries with Custom Functions and Iteration Methods:
+
+-   Write a Custom Summary Function
+
+```{# mtcars datasetini yükle (built-in)}
+data(mtcars)
+
+# mtcars'ın ilk 5 satırını gör
+head(mtcars, 5)
+```
+
+```{# compute_stats function}
+compute_stats <- function(x) {
+  # input numeric control
+  if (!is.numeric(x)) {
+    stop("Input must be a numeric vector.")
+  }
+  
+  # statistical calculations
+  mean_x   <- mean(x)
+  median_x <- median(x)
+  var_x    <- var(x)
+  iqr_x    <- IQR(x)
+  min_x    <- min(x)
+  max_x    <- max(x)
+  
+  # list results
+  stats_list <- list(
+    mean      = mean_x,
+    median    = median_x,
+    variance  = var_x,
+    iqr       = iqr_x,
+    minimum   = min_x,
+    maximum   = max_x
+  )
+  
+  return(stats_list)
+}
+
+# Sample function : mtcars dataset mpg columns statistics 
+compute_stats(mtcars$mpg)
+```
+
+-   Applying the Function Using a Loop:
+
+    ```{r}
+    # mtcars veri setini yüklüyoruz
+    data(mtcars)
+
+    # for döngüsü ile tüm sayısal sütunlara fonksiyonu uygulayalım
+    for (col_name in names(mtcars)) {
+      
+      # sütunun sayısal olup olmadığını kontrol edelim
+      if (is.numeric(mtcars[[col_name]])) {
+        
+        # sütuna compute_stats fonksiyonunu uygula
+        stats <- compute_stats(mtcars[[col_name]])
+        
+        # sonuçları yazdır (sütun ismiyle birlikte)
+        cat("Column:", col_name, "\n")
+        print(stats)
+        cat("\n") # Araya boş satır bırakır (daha okunur)
+      }
+    }
+
+
+    ```
 
 ## (c)
